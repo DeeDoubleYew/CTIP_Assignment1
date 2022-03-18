@@ -1,1 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Computing Technology Inquiry Project"/>
+  <meta name="keywords"    content="HTML"/>
+  <meta name="author"      content=""/>
+  <title>Web 2.0 vs Web 3.0 Quiz Page</title>
+</head>
+<body>
 
+<!--First name, Last name and Student ID-->
+<fieldset>
+  <legend>Student details</legend>
+  <p><label for="Student_ID">Student ID</label>
+       <input type="text" name="Student_ID" id="Student_ID" pattern = "[0-9]" input pattern=".{7,10}"/>
+  </p>
+  <p><label for="Given_Name">Given Name</label>
+       <input type="text" name="Given_Name" id="Given_Name" pattern="[a-zA-Z]+"/>
+    <label for="Family_Name">Family Name</label>
+       <input type="text" name="Family_Name" id="Family_Name" pattern="[a-zA-Z]+"/>
+  </p>
+</fieldset>
+
+<!--Answer: Web 1.0 (or similar variation such as web 1)-->
+  <fieldset>
+    <legend>Question 1</legend>
+    <p>Web 2.0 & web 3.0 are successive iterations of what?
+    </p>
+    <p><label for="answer1">Answer:</label>
+         <input type="text" name="answer1" id="answer1" minlength="1" maxlength="20"/>
+    </p>
+  </fieldset>
+
+<!--Answer: Empowering the individual user-->
+  <fieldset>
+    <legend>Question 2</legend>
+    <p>Web 3.0 focuses primarily on...
+    </p>
+    <p>
+      <label><input type="radio" name=" class" value="empower" checked="checked"/>Empowering the individual user</label>
+      <label><input type="radio" name=" class" value="community"/>Community development</label>
+      <label><input type="radio" name=" class" value="enabling"/>Enabling the showcase of the pieces of information on websites</label>
+    </p>
+  </fieldset>
+
+<!--Answer: Centralized, Decentralized-->
+  <fieldset>
+    <legend>Question 3</legend>
+    <p>Web 2.0 uses _________ protocols compared to Web 3.0, using _________ protocols
+    </p>
+    <p>
+      <label><input type="checkbox" name="lang[]" value="centralized" checked="checked"/>Centralized</label>
+      <label><input type="checkbox" name="lang[]" value="decentralized"/>Decentralized</label>
+      <label><input type="checkbox" name="lang[]" value="aJAX"/>AJAX</label>
+      <label><input type="checkbox" name="lang[]" value="artificial_intelligence "/>Artificial intelligence</label>
+    </p>
+  </fieldset>
+
+<!--Answer: Web applications-->
+  <fieldset>
+    <legend>Question 4</legend>
+    <p>While Web 3.0 applications are based on AI and ML, Web 2.0 applications are based on...</p>
+        <p>
+          <select name="tutor" id="tutor">
+            <option value="" selected="selected">Please Select</option>
+            <option value="web_applications">Web applications</option>
+            <option value="native_applications">Native applications</option>
+            <option value="hybrid_applications">Hybrid applications</option>
+            <option value="online_applications ">Online applications</option>
+          </select>
+        </p>
+  </fieldset>
+
+<!--Answer: [1991], [2004]-->
+  <fieldset>
+    <p><label for="label1">Roughly between the years</label><input type="number" id="year1" name="year1" min="1990" max="2000"><label for="label2">to</label><input type="number" id="year2" name="year2" min="2000" max="2010"><label for="label3">was considered the “Web’s” evolution where Web 1.0 was developed.</label>
+    </p>
+  </fieldset>
+
+  <input type="submit" name="submit" value="Book">
+  <input type="reset" name="reset" value="Reset Form">
+
+</body>
+</html>
