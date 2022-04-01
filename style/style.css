@@ -102,5 +102,5 @@ footer p {
   font-style: italic;
   text-align: center;
 }
-nav a{text-decoration:underline; padding:0.2em 0.6em; border: 4px solid; }
-nav a:hover{background-color:#E7DCDC; border:#AFEAE9;}
+nav a{text-decoration:none; padding:0.2em 0.6em; border: 4px solid #050404; }
+nav a:hover{background-color:#DCD4D4; border:#AFEAE9;}
