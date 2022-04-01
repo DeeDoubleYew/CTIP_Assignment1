@@ -6,7 +6,7 @@ last modified: [26/03/2022]
 description: [css files that refers to index.html, topic.html, quiz.html, enhancements.html]
 */
 
-/* Style the header with a grey background and some padding ---------------------------------------------------*/
+/* Style the page with a grey background---------------------------------------------------*/
 body {
   background-image: url("images/backround.png");
 }
