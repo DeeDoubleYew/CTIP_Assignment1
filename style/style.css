@@ -7,6 +7,14 @@ description: [css files that refers to index.html, topic.html, quiz.html, enhanc
 */
 
 /* Style the header with a grey background and some padding ---------------------------------------------------*/
+@font-face {
+  font-family:Avenir;
+  src: url("Avenir Next LT Pro Regular.otf");
+}
+
+*{
+	  font-family:Avenir, Helvetica, sans-serif;
+}
 body {
   background-image: url("images/backround.png");
 }
