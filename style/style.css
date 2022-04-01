@@ -145,3 +145,4 @@ footer p {
   font-style: italic;
   text-align: center;
 }
+nav a{text-decoration:underline; padding:0.2em 0.6em; border: 4px solid; }
