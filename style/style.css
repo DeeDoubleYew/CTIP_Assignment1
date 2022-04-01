@@ -97,16 +97,6 @@ section a:hover {
 }
 
 /* Style the footer ----------------------------------------------------------------*/
-.footer {
-  overflow: hidden;
-  background-color: #43ABC9;
-
-  padding: 20px 10px;
-  width: 1440px;
-  max-width: 100%;
-  min-width: 768px;
-  margin: 0 auto;
-}
 
 footer p {
   font-style: italic;
