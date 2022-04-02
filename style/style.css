@@ -115,7 +115,7 @@ nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px 
 nav a:hover{ border:#AFEAE9;}
 
 header{
-	border:4px #62605F;
+	border:5px solid #62605F;
 	margin:4px;
 	padding:8px;
 	background-color:#E5E3E3;
