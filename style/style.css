@@ -124,9 +124,9 @@ header{
 }
 
 footer{
-	border:4px;
-	margin:2em;
-	padding:8px;
+	border:3px;
+	margin:4em;
+	padding:6px;
 	border-style:double;
 	text-align:center;
 }
