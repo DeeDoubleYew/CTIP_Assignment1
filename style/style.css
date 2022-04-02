@@ -116,9 +116,9 @@ nav a:hover{ border:#AFEAE9;}
 
 header{
 	border:5px solid #62605F;
-	margin:4px;
+	margin:2em;
 	padding:8px;
-	background-color:#E5E3E3;
+	background-color:#CECCCB;
 	border-radius:10px;
 	text-align:center;
 }
