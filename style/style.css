@@ -115,10 +115,10 @@ nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px 
 nav a:hover{ border:#AFEAE9;}
 
 header{
-	border:4px #ECF0EF;
+	border:4px #815643;
 	margin:4px;
 	padding:8px;
-	background-color:#A0A4A3;
+	background-color:#858180;
 	border-style:double;
 	text-align:center;
 }
