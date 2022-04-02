@@ -123,3 +123,11 @@ header{
 	text-align:center;
 }
 
+footer{
+	border:4px;
+	margin:2px;
+	padding:8px;
+	border-style:double;
+	text-align:center;
+}
+
