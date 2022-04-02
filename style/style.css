@@ -111,7 +111,7 @@ footer p {
   font-style: italic;
   text-align: center;
 }
-nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px dotted #050404; }
+nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px inset #050404; }
 nav a:hover{ border:#AFEAE9;}
 
 header{
