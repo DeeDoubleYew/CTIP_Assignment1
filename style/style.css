@@ -22,7 +22,6 @@ body {
 
 /*Header container -----------------------------------------------------------------------*/
 .header {
-	background-image:url("images/bg.png");
 overflow: hidden;
 background-color: #A2A6BB;
 /*Set width of box + padding*/
@@ -40,7 +39,7 @@ header{
 	border:5px solid #62605F;
 	margin:2em;
 	padding:8px;
-	background-color:#CECCCB;
+	background-image:url("images/bg.png");
 	border-radius:10px;
 	text-align:center;
 }
