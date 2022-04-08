@@ -25,7 +25,7 @@ body {
 	background-color: #A2A6BB;
   overflow: hidden;
   /*Set width of box + padding*/
-  padding: 30px 10px;
+  padding: 1px 10px;
   width: 1340px;
   max-width: 100%;
   min-wisdth: 768px;
@@ -130,7 +130,7 @@ section a:hover {
 overflow: hidden;
 background-color: #A2A6BB;
 /*Set width of box + padding*/
-padding: 20px 10px;
+padding: 1px 10px;
 width: 1340px;
 max-width: 100%;
 min-width: 768px;
