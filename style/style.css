@@ -17,7 +17,7 @@ description: [css files that refers to index.html, topic.html, quiz.html, enhanc
 }
 
 body {
-  background-image: url("style/images/background.PNG");
+  background-image: url("images/background.png");
 }
 
 /*Header container -----------------------------------------------------------------------*/
