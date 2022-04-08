@@ -23,7 +23,6 @@ body {
 /*Header container -----------------------------------------------------------------------*/
 .header {
 overflow: hidden;
-background-color: #A2A6BB;
 /*Set width of box + padding*/
 padding: 20px 10px;
 width: 1440px;
