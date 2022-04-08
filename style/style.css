@@ -54,6 +54,18 @@ header{
   margin: 0 auto;
 }
 /*----------------------------------------------------------------------*/
+#indeximg {
+  width: 30%;
+  float: right;
+  margin: auto;
+}
+
+#indexintro {
+  float: left;
+  margin: auto;
+  width: 68%
+}
+
 h1  {
   font: 38px Arial, sans-serif;
 }
