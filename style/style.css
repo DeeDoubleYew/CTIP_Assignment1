@@ -22,7 +22,6 @@ body {
 
 /*Header container -----------------------------------------------------------------------*/
 .header {
-	background-image: url("images/images.jpeg");
 overflow: hidden;
 background-color: #A2A6BB;
 /*Set width of box + padding*/
@@ -37,6 +36,7 @@ nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px 
 nav a:hover{ border:#AFEAE9;}
 
 header{
+	background-image: url("images/images.jpeg");
 	border:5px solid #62605F;
 	margin:2em;
 	padding:8px;
