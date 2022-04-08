@@ -22,6 +22,7 @@ body {
 
 /*Header container -----------------------------------------------------------------------*/
 .header {
+	background-image: url("images/images.jpeg");
 overflow: hidden;
 background-color: #A2A6BB;
 /*Set width of box + padding*/
