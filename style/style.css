@@ -29,7 +29,6 @@ width: 1440px;
 max-width: 100%;
 min-width: 768px;
 margin: 0 auto;
-width:75%;
 }
 
 nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px dotted #050404; }
