@@ -55,7 +55,8 @@ header{
 }
 /*----------------------------------------------------------------------*/
 #indeximgsize {
-  width: 110%
+  height: 1000px;
+ width: 1000px;
 }
 h1  {
   font: 38px Arial, sans-serif;
