@@ -60,7 +60,6 @@ header{
  width: 1000px;
 }
 
-
 /*Table*/
 table, tr, td, th {
   border: 1px solid black
@@ -136,8 +135,6 @@ max-width: 100%;
 min-width: 768px;
 margin: 0 auto;
 }
-
-
 
 footer p {
   font-style: italic;
