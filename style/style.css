@@ -55,6 +55,22 @@ header{
   margin: 0 auto;
 }
 /*----------------------------------------------------------------------*/
+
+h1  {
+  font: 38px Arial, sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figcaption {
+  text-align: center;
+}
+
 #indeximgsize {
   height: 1000px;
  width: 1000px;
