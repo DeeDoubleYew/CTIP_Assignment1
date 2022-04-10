@@ -1,155 +1,47 @@
 /*
 filename: [style.css]
-author: [Zach Smith]
-created: [16/03/2022]
-last modified: [01/04/2022]
+author: [Zach Smith & Max Morrissy]
 description: [css files that refers to index.html, topic.html, quiz.html, enhancements.html]
 */
 
 /* Style the header with a grey background and some padding ---------------------------------------------------*/
+
+/* Import Custom Fonts*/
 @font-face {
   font-family:Avenir;
   src: url("Avenir Next LT Pro Regular.otf");
 }
 
+@font-face {
+  font-family:AvenirDemi;
+  src: url("Avenir Next LT Pro Demi.otf");
+}
+/*Default font*/
 *{
-	  font-family:Avenir, Helvetica, sans-serif;
+  font-family:Avenir, Helvetica, sans-serif;	  
+  color: #33343B
 }
+/*General CSS*/
 
-body {
-  background-image: url("images/background.png");
+
+h1  {
+  font: 38px Avenir, sans-serif;
+ 
 }
-
-/*Header container -----------------------------------------------------------------------*/
-.header {
-	background-color: #A2A6BB;
-  overflow: hidden;
-  /*Set width of box + padding*/
-  padding: 1px 10px;
-  width: 1340px;
-  max-width: 100%;
-  min-width: 768px;
-  margin: 0 auto;
+h2  {
+  font: bold 24px AvenirDemi, sans-serif;
 }
-
-nav a{text-decoration:underline; margin:0.8em; padding:0.2em 0.6em; border: 2px dotted #050404; }
-nav a:hover{ border:#AFEAE9;}
-
 header{
-	border:5px solid #62605F;
+	border:5px solid #33343B;
 	margin:2em;
 	padding:8px;
 	border-radius:20px;
 	text-align:center;
 }
 
-/*Main body container -----------------------------------------------------------------------*/
-.container {
-  overflow: hidden;
-  background-color: #f1f1f1;
-/*Set width of box + padding*/
-  padding: 20px 10px;
-  width: 1340px;
-  max-width: 100%;
-  min-width: 768px;
-  margin: 0 auto;
-}
-/*----------------------------------------------------------------------*/
-
-h1  {
-  font: 38px Arial, sans-serif;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-figcaption {
-  text-align: center;
-}
-
-#indeximgsize {
-  height: 1000px;
- width: 1000px;
-}
-
-/*Table*/
-table, tr, td, th {
-  border: 1px solid black
-}
-
-th {
-  background-color: purple;
-  color: white;
-}
-
-.table {
-  float: left;
-  margin: auto;
-  width: 68%
-}
-
-/*Aside characteristics*/
-aside {
-  width: 30%;
-  float: right;
-  border-top: 4px double #808080;
-  border-bottom: 4px double #808080;
-  margin: auto;
-}
-
-#img_aside {
-  width: 110%;
-}
-
-img {
-  width: 1100px;
-  height: 200px;
-  object-fit: contain;
-}
-
-/*Definition Table header bold*/
-dt {
-  font-weight: bold;
-}
-
-/*Hyperlink colour*/
-a {
-  color: black;
-}
-
-.Reference {
-  color: grey
-}
-
-.Referencemain{
-  color: #656565
-}
-
-/* Change link colour on mouse-over */
-section a:hover {
-  color: black;
-}
-
-.footer p a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the footer ----------------------------------------------------------------*/
-
-.footer {
-overflow: hidden;
-background-color: #A2A6BB;
-/*Set width of box + padding*/
-padding: 1px 10px;
-width: 1340px;
-max-width: 100%;
-min-width: 768px;
-margin: 0 auto;
+body {
+  background-image: url("images/background.png");
+  margin: 0;
 }
 
 footer p {
@@ -164,3 +56,115 @@ footer{
 	border-style:double;
 	text-align:center;
 }
+
+aside {
+  width: 30%;
+  float: right;
+  border-top: 10px double #33343B;
+  border-bottom:10px double #33343B;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  font: italic;
+}
+
+table, tr, td, th {
+  border: 1px solid black
+}
+
+table {
+  float: left;
+  margin: auto;
+  width: 68%
+}
+
+th {
+  background-color: #21263B;
+  color: white;
+}
+
+img {
+  width: 1100px;
+  height: 200px;
+  object-fit: contain;
+}
+
+dt {
+	font-style: italic;
+}
+
+/*Hyperlink CSS*/
+a {
+  color: black;
+}
+nav a{
+	text-decoration:none; 
+	margin:0.8em;
+	padding:0.2em 0.6em;
+	border: 2px dotted #050404; 
+	}
+	
+nav a:hover{ border:#AFEAE9;}
+
+section a:hover {
+  color: black;
+}
+
+/*Header container -----------------------------------------------------------------------*/
+.header {
+	background-color: #717FC6;
+	overflow: hidden;
+	max-width: 100%;
+	min-width: 768px;
+	margin: 0;
+}
+/*Main body container -----------------------------------------------------------------------*/
+.container {
+  overflow: hidden;
+  background-color: #f1f1f1;
+/*Set width of box + padding*/
+  padding: 20px 10px;
+  width: 1340px;
+  max-width: 100%;
+  min-width: 768px;
+  margin: 0 auto;
+}
+
+/* Style the footer Container*/
+
+.footer {
+overflow: hidden;
+background-color: #A2A6BB;
+max-width: 100%;
+min-width: 768px;
+margin: 0;
+}
+.footer p a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*ID CSS*/
+
+/* Center and size index image */
+#index_img, #topic_img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#index_img {
+	height: 1000px;
+	width: 1000px;
+}
+#topic_img{
+	width: 75%;
+}
+
+/*Slight change to this specific header to better fit container*/
+#aside_header {
+  font: bold 16px Avenir, sans-serif;
+}
+
